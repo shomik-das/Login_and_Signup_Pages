@@ -61,7 +61,7 @@ a {
   cursor: pointer;
 }
 .button:active {
-  transform: scale(0.98);
+  transform: scale(1.2);
 }
 .otp:active {
   transform: scale(0.001);
@@ -85,6 +85,7 @@ a {
   opacity: 0;
   pointer-events: none;
   transition: all 0.5s ease-out;
+  
 }
 .show::before {
   opacity: 1;
